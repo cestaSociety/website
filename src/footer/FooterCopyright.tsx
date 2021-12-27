@@ -2,14 +2,9 @@ import { AppConfig } from '../utils/AppConfig';
 
 const FooterCopyright = () => (
   <div className="footer-copyright">
-    © {new Date().getFullYear()} {AppConfig.title}. Powered with{' '}
-    <span role="img" aria-label="Love">
-      ♥
-    </span>{' '}
-    by <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a> <br />
-    Made with     <span role="img" aria-label="Love">
-      ♥
-    </span>{' '} by cesta
+    © {new Date().getFullYear()} | Made with <span role="img" aria-label="Love">♥</span>{' '} by {AppConfig.title}
+    <br />
+    Powered by <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a>
     <style jsx>
       {`
         .footer-copyright :global(a) {

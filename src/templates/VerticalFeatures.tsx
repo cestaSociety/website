@@ -3,7 +3,7 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="We are Cesta there are our supper power!"
+    title="We are Cesta there are our super powers!"
     description="To know what we provide or how we manage to create events and provide opportunities to all the students who are willing to study."
   >
       <VerticalFeatureRow

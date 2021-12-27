@@ -17,6 +17,11 @@ const Hero = () => (
           </Link>
         </li>
         <li>
+          <Link href="https://blog.cesta-society.in/">
+            <a>Blog</a>
+          </Link>
+        </li>
+        <li>
           <Link href="https://github.com/cestasociety/website">
             <a>Edit me</a>
           </Link>

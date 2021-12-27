@@ -27,7 +27,7 @@ const Footer = () => (
                 </svg>
               </a>
             </Link>
-
+{/*
             <Link href="/">
               <a>
                 <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -43,7 +43,7 @@ const Footer = () => (
                 </svg>
               </a>
             </Link>
-
+*/}
             <Link href="https://www.linkedin.com/in/cesta-the-computer-science-club-of-dtc-881845207/">
               <a>
                 <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -81,8 +81,8 @@ const Footer = () => (
           </Link>
         </li>
         <li>
-          <Link href="/">
-            <a>Docs</a>
+          <Link href="https://blog.cesta-society.in/">
+            <a>Blog</a>
           </Link>
         </li>
         <li>
